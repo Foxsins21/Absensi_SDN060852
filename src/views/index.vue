@@ -29,7 +29,7 @@ const logout = () => {
     <br>
     <button
     v-if="role === 'headmaster'"
-    class="fixed top-5 right-5 lg:right-20 text-xs lg:text-sm text-white bg-indigo-600 p-2.5 rounded-md"
+    class="fixed top-5 right-5 lg:right-20 text-xs lg:text-sm text-white bg-Red-700 p-2.5 rounded-md"
     @click="logout"
   >
     Logout
